@@ -676,6 +676,11 @@ a {
     margin: auto auto auto auto;
 }
 
+.statement-bloc-source {
+    font-style: normal;
+    font-size: 14px;
+}
+
 p {
     font-size: 11px;
 }
