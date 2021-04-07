@@ -841,10 +841,17 @@ h4 {
 }
 
 
+#bloc-3-what-i-do h2:hover{
+    color:white !important;
+}
 
 #bloc-5-cta.d-bloc h2{
     position:relative;
     z-index:2;
+}
+
+#bloc-5-cta.d-bloc h2:hover{
+    color:white !important;
 }
 
 footer.d-bloc{
@@ -854,6 +861,7 @@ footer.d-bloc{
 footer a{
     color:black !important;
 }
+
 
 
 @media (max-width: 1024px) {
