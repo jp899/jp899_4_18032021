@@ -8,7 +8,6 @@ body {
 }
 
 *:focus{
-    /* color:white; */
     border: 2px solid black;
 }
 
@@ -138,7 +137,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .d-bloc .a-btn:hover,
@@ -455,7 +454,7 @@ nav .caret {
     margin: 0 5px 5px 0;
 }
 .btn:focus {
-    background-color: red;
+    background-color: #7F300A;
     text-decoration :underline;
 }
 
@@ -717,6 +716,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    color:white;
 }
 
 h2 {
@@ -786,20 +786,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #CB4C11;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #CB4C11!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #CB4C11;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #7F300A!important;
     color: #FFFFFF!important;
 }
 
@@ -812,11 +812,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #CB4C11!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #7F300A!important;
 }
 
 .icon-dark-slate-blue {
@@ -839,6 +839,22 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
+
+
+
+#bloc-5-cta.d-bloc h2{
+    position:relative;
+    z-index:2;
+}
+
+footer.d-bloc{
+    color:white;
+}
+
+footer a{
+    color:black !important;
+}
+
 
 @media (max-width: 1024px) {
     .bloc {
@@ -888,8 +904,8 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -899,8 +915,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
