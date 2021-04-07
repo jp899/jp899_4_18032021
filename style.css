@@ -841,16 +841,15 @@ h4 {
 }
 
 
-#bloc-3-what-i-do h2:hover{
-    color:white !important;
-}
-
 #bloc-5-cta.d-bloc h2{
     position:relative;
     z-index:2;
 }
 
-#bloc-5-cta.d-bloc h2:hover{
+#bloc-3-what-i-do h2:hover,
+#bloc-5-cta.d-bloc h2:hover,
+#bloc-6 h1:hover,
+#bloc-6 p:hover{
     color:white !important;
 }
 
