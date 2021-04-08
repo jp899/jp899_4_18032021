@@ -765,7 +765,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(0, 0, 0, 0.75);
     padding: 40px 40px 40px 40px;
 }
 
@@ -850,11 +850,14 @@ h4 {
 }
 
 #bloc-1-hero h1,
-#bloc-3-what-i-do h2:hover,
 #bloc-5-cta.d-bloc h2:hover,
 #bloc-6 h1:hover,
 #bloc-6 p:hover{
     color:white !important;
+}
+
+#bloc-3-what-i-do h2{
+    color:#EC5F1D!important;
 }
 
 footer.d-bloc{
