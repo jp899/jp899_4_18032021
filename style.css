@@ -864,6 +864,10 @@ h4 {
     color:#EC5F1D!important;
 }
 
+#bloc-3-what-i-do a:focus{
+    border-color:white;
+}
+
 footer.d-bloc{
     color:white;
 }
