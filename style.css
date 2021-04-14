@@ -711,9 +711,13 @@ p {
 }
 
 .social {
+    display:block;
     max-width: 400px;
-    margin: auto auto 30px auto;
+    min-width: 48px;
+    min-height: 48px;
+    margin: auto auto auto auto;
     color:white;
+
 }
 
 h2 {
@@ -866,6 +870,14 @@ footer.d-bloc{
 
 footer a{
     color:black !important;
+}
+
+footer li {
+    line-height:48px;
+}
+footer li a{
+    display: block;
+    height:48px;
 }
 
 
